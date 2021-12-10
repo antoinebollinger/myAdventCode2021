@@ -14,7 +14,16 @@ const input_2 = strToArray('./days/day_2.txt');
 const result_2_1 = day_2_1(input_2);
 const result_2_2 = day_2_2(input_2);
 // console.log(result_2_1);
-console.log(result_2_2);
+// console.log(result_2_2);
+
+// -------- DAY 3 ---------------- //
+const { day_3_1, day_3_2 } = require('./days/day_3');
+const input_3 = strToArray('./days/day_3.txt');
+const result_3_1 = day_3_1(input_3);
+const result_3_2 = day_3_2(input_3);
+console.log(result_3_1);
+// console.log(result_3_2);
+
 
 // -------- DAY 6 ---------------- //
 const { day_6_1, day_6_2 } = require('./days/day_6');
