@@ -12,4 +12,4 @@ const day_2_1 = (array) => {
 }
 
 //Export
-module.exports = { day_2_1: day_2_1 };
+module.exports = { day_2_1 };

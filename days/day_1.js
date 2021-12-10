@@ -11,5 +11,6 @@ const day_1_2 = (array) => {
         .filter((ele, index, array) => array[index - 1] < ele)
         .length;
 }
+
 //Export
-module.exports = { day_1_1: day_1_1, day_1_2: day_1_2 };
+module.exports = { day_1_1, day_1_2 };

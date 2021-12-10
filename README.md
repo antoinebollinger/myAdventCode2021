@@ -9,6 +9,7 @@ You'll see on this repo the code I'm writing for that, basicaly all in JS.
 If you want to test it, please feel free to clone and then
 
 ```npm init```
+
 ```node index```
 
 ## Contact 📧
