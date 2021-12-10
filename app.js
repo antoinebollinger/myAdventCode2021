@@ -1,9 +1,12 @@
 const fs = require('fs');
 
-const makeArrayFromTxt = (path) => {
+const strToArray = (path) => {
     const text = fs.readFileSync(path, 'utf-8');
     const textByLine = text.split('\n');
     return textByLine;
 }
 
-module.exports = makeArrayFromTxt;
+const strToNbr = (txt) => {
+    return parseInt(txt.match(/\d/g).join(''));
+}
+module.exports = { strToArray, strToNbr };
