@@ -21,8 +21,8 @@ const { day_3_1, day_3_2 } = require('./days/day_3');
 const input_3 = strToArray('./days/day_3.txt');
 const result_3_1 = day_3_1(input_3);
 const result_3_2 = day_3_2(input_3);
-console.log(result_3_1);
-// console.log(result_3_2);
+// console.log(result_3_1);
+console.log(result_3_2);
 
 
 // -------- DAY 6 ---------------- //
